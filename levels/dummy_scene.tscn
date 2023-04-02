@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://ttqv53lmgblq"]
+
+[ext_resource type="Script" path="res://Node.gd" id="1_uth8f"]
+[ext_resource type="PackedScene" uid="uid://frmtys5tdiog" path="res://actors/generator.tscn" id="2_a6l33"]
+[ext_resource type="PackedScene" uid="uid://dw6t4qe3xvl4m" path="res://actors/destroyer.tscn" id="3_nsawh"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_uth8f")
+
+[node name="CollisionShape2D" parent="." instance=ExtResource("2_a6l33")]
+
+[node name="destroyer" parent="." instance=ExtResource("3_nsawh")]
+position = Vector2(344, 99)
