@@ -7,7 +7,7 @@
 [node name="Node" type="Node"]
 script = ExtResource("1_uth8f")
 
-[node name="destroyer" parent="." instance=ExtResource("3_nsawh")]
+[node name="Destroyer" parent="." instance=ExtResource("3_nsawh")]
 position = Vector2(344, 99)
 
-[node name="CollisionShape2D2" parent="." instance=ExtResource("2_a6l33")]
+[node name="Generator" parent="." instance=ExtResource("2_a6l33")]
