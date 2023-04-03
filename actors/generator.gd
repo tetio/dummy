@@ -15,8 +15,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	var my_random_number = rng.randf_range(0.0, 10000.0)
-	if my_random_number > 9990:
+	var my_random_number = rng.randf_range(0.0, 1000.0)
+	if my_random_number > 990:
 		instantiate_ball()
 
 
